@@ -14,9 +14,9 @@
  * │CTL │GUI │ALT │        SPACE           │ALT │GUI │MNU │CTL│ INS │
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴───┴─────┘
  * 
- * Layer 1 (Bluetooth/Function):
+ * Layer 1 (System/Function):
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
- * │   │BT0│BT1│BT2│BT3│BT4│BTL│   │   │   │   │   │   │ BTCLR │
+ * │RST│BT0│BT1│BT2│BT3│BT4│BTL│USB│BLE│TOG│   │   │   │ BTCLR │
  * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┤
  * │     │   │   │   │   │   │   │   │   │   │   │   │   │     │
  * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴─────┤
@@ -27,8 +27,9 @@
  * │    │    │    │                        │    │    │    │   │     │
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴───┴─────┘
  * 
- * BT0-BT4: Bluetooth profiles 0-4  |  BTL: Bootloader  |  BTCLR: Clear all BT bonds
- */
+ * Key Functions:
+ * RST: System Reset | BT0-BT4: Bluetooth profiles | BTL: Bootloader | BTCLR: Clear BT bonds
+ * USB: Force USB output | BLE: Force Bluetooth | TOG: Toggle USB/BLE output
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
