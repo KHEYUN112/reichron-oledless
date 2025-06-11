@@ -30,7 +30,7 @@
  * Key Functions:
  * RST: System Reset | BT0-BT4: Bluetooth profiles | BTL: Bootloader | BTCLR: Clear BT bonds
  * USB: Force USB output | BLE: Force Bluetooth | TOG: Toggle USB/BLE output
-
+ */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
